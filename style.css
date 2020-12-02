@@ -1,0 +1,118 @@
+
+/* Base Style */
+body{
+  font-family: 'Poppins', sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+h1{
+  font-weight: 500;
+  font-size: 24px;
+}
+
+h2{
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+h4{
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 12px;
+}
+
+h5{
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 12px;
+}
+
+
+
+.box{
+  width: 65%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: 30px auto 60px;
+  padding: 50px;
+
+}
+
+
+header > img{
+  width: 180px;
+  margin-top: 20px;
+}
+
+
+header{
+  color: #00dd00;
+  text-align: center;
+}
+
+.button-section{
+  padding: 10px;
+  background-color: #00dd00;
+  text-align: center;
+}
+
+
+/* Main */
+
+main{
+  color: white;
+}
+
+main > section {
+  margin: 30px 0;
+}
+
+.monopattino h2 {display: inline-block;}
+
+
+h4::before{
+  content: "\21A6";
+  margin-right: 5px;
+}
+
+
+.line{
+  height: 15px;
+  border-radius: 4px;
+}
+
+.line.gino22{
+  background-color: orange;
+  width: 40%;
+}
+
+.line.mike24{
+  background-color: #00dd00;
+  width: 60%;
+}
+
+.line.fede154{
+  background-color: red;
+  width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing:border-box;
+  margin: 0;
+}
